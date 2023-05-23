@@ -1,0 +1,420 @@
+body {
+    margin: 0; 
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+
+/* Desactiver le scrolling bar de navigateur */
+/* ::-webkit-scrollbar{
+    background: #e8f2ff;
+    width: 0px;
+} */
+/* ::-webkit-scrollbar-thumb{
+    background: #fff;
+} */
+
+/* Accueil*/
+
+.accueil {
+    height: 100vh;
+    width: 100%;
+    background: #333;
+    background: url('Illustrations/Bathome1.png');
+    background-size: cover;
+    background-position: center;
+}
+.navbar {
+    height: 150px;
+    width: 100%;
+    background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(0,0,0,1));
+    display: flex;
+    justify-content: space-between;
+}
+.contLogo {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+.logo {
+    margin-left: 20px;
+    padding-left: 20px;
+    width: 100px;
+    height: 50px;
+}
+.contItems {
+    font-size: 22px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.items {
+    margin-right: 20px;
+    padding-right: 80px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+.items:hover {
+    color: red;
+}
+.logoMenuImg {
+    width: 80px;
+    display: none;
+    position: absolute;
+    right: 20px;
+    top: 30px;
+}
+
+
+/* Conatiner accueil principal */
+.container_accueil_principal{
+    display: flex;
+    width: 100%;
+}
+
+/* Menu vertical */
+.menu_vertical{
+    width: 10%;
+    /* background-color: aqua; */
+
+}
+.item_menu_vertical{
+    width: 100px;
+    height: 70px;
+    /* background-color: antiquewhite; */
+}
+.imv1{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.imv2{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.imv2 img{
+    width: 30px;
+    height: 30px;
+    padding-top: 20px;
+}
+.imv3{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.imv3 img{
+    width: 30px;
+    height: 30px;
+    padding-top: 20px;
+}
+.imv4{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.imv4 img{
+    width: 30px;
+    height: 30px;
+    padding-top: 20px;
+}
+.imv5{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+/* Container au niveau de l'accueil */
+.container_accueil{
+    margin-top: 10%;
+    width: 100%;
+    height: 50%;
+    padding-left: 8%;
+}
+
+.container_accueil p {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    padding-top: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.container_accueil h1 {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.container_accueil_lien{
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-accueil-1 {
+    background: rgba(247,247,247,0.1);
+    color: #f1f1f1;
+    text-align: center;
+    font-size: 19px;
+    display: block;
+    width: 300px;
+    height: 70px;
+    line-height: 70px;
+    text-decoration: none;
+    margin:10px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.btn-accueil-1:hover {
+    background: rgb(177,0,36);
+    color: #fff;
+}
+.btn-accueil-2 {   
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(196, 0, 0));
+    color: #f1f1f1;
+    text-align: center;
+    font-size: 19px;
+    display: block;
+    width: 300px;
+    height: 70px;
+    line-height: 70px;
+    text-decoration: none;
+    margin: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.btn-accueil-2:hover {
+    background: rgb(177,0,36);
+    color: #fff;
+}
+
+/* Pour le bas d'accueil radiant */
+
+.bloc_radiant{
+    width: 100%;
+    height: 200px;
+    margin-top: 40px;
+    display: flex;
+    background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgba(0,0,0,1));
+    justify-content: center;
+}
+
+/* Botton vers le bas */
+.botton_vers_bas{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+.intemsbtn{
+    margin-top: 80px;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    justify-content: center;
+    /* border: 1px solid white; */
+}
+.intemsbtn img {
+    height: 100px;
+    width: 100;
+}
+
+/* Mise en forme Batman au cinema & paragraphe*/
+.batman_au_cinema{
+    padding-top: 50px;
+    padding-left: 100px;
+    text-align: left;
+    color: #fff;
+    font-size: 50px;
+}
+.personage-batman{
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: left;
+    color: skyblue;
+    text-align: justify;
+    font-size: 30px;
+}
+
+/*Card batman*/
+.batman_cinema_card{
+    width: 100%;
+    display:flex;
+    justify-content : center;
+    align-items : center;
+    flex-wrap : wrap;
+	align-content: flex-start; 
+}
+.batman_cinema_items{
+    margin: 40px;
+}
+.batman_cinema_items img{
+    width:400px;
+}
+.batman_cinema_items h1{
+    text-align: center;
+    color: #fff;
+}
+
+/*Card SuperPosition*/
+.container_superposition{
+    display:flex;
+    justify-content : flex-start;
+    margin-left: 10%;
+}
+.card_superposition{
+    width: 200px;
+    height: 150px;
+}
+.card_superposition h1{
+    padding-top: 90px;
+    padding-left: 0px;
+    color: skyblue;
+}
+.card_superposition img{
+    width: 170px;
+    height: 150px;
+}
+.cs2{
+    z-index: 2;
+    margin-left: -100px;
+}
+
+/* Mise en forme lettre nemesis */
+.lettre_nemesis{
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: left;
+    color: white;
+    text-align: justify;
+    font-size: 30px;
+}
+
+
+/* Modifiaction NOM aux card Nemesis à partir de la card Batman */
+
+.container_photo{
+    width: 100%;
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: center;
+}
+.pe_gauche{
+    width: 300px;
+    margin-left: 100px;
+    /* background-color:red; */
+    
+}
+.pe_gauche h1{
+    color: #fff;
+    padding-top: 180px;
+    font-size: 40px;
+}
+
+.pe_droite{
+    margin-left: auto;
+    margin-top: -150px;
+    width: 500px;
+    height: 400px;
+}
+
+
+/* Pour le titre et paragraphe ligue de justice */
+
+.titre_ligue_de_justice{
+    padding-top: 50px;
+    padding-left: 100px;
+    text-align: left;
+    color: #fff;
+    font-size: 50px;
+}
+.paragraphe_ligue_de_justice{
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: left;
+    color: white;
+    text-align: justify;
+    font-size: 30px;
+}
+
+/* Modification image ligue de justice */
+.container_image_ligue_justice{
+    width: 100%;
+}
+.container_image_ligue_justice img{
+    margin-top: 40px;
+    width: 100%;
+}
+
+
+
+/*Parametre menu responsive*/
+@media screen and (max-width: 700px) {
+
+    /* on fait apparaitre le logo */
+    /* .logoMenuImg {
+        display: block;
+    } */
+
+    /* pour ne plus display flex les éléments */
+    /* .navbar {
+        display: block;
+    } */
+    /* Pour espacer, fait à la fin */
+    .items:nth-child(1){
+         padding-top: 40px;
+    }
+    .items {
+        margin-right: 0;
+         padding: 10px 20px;
+        display: block;
+        text-align: right;
+    }
+    
+    .contItems {
+        display: block;
+        /* border-top: 1px solid black; */
+        /* background: green; */
+    }
+    /* Classe à toggle */
+    .responsive {
+        display: block;
+    }
+    .btn-accueil-1 {
+        text-align: center;
+        font-size: 12px;
+        display: block;
+        width: 250px;
+        height: 60px;
+    }
+    .btn-accueil-2 {
+        text-align: center;
+        font-size: 12px;
+        display: block;
+        width: 250px;
+        height: 60px;
+    }
+    .container_accueil h1 {
+        font-size: 40px;
+    }
